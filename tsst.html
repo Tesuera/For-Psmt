@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(29, 44, 34);
+    }
+
+    section{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(239, 239, 239);
+    }
+    .first,.second{
+        width: 50%;
+        height: 100%;
+    }
+
+    .first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line{
+        width: 30px;
+        margin-right: 4px;
+        height: 1.2px;
+        background-color: rgb(29, 44, 34);
+    }
+
+    .holatxt{
+        font-size: 0.8rem;
+    }
+    .firstline{
+        margin: 10px 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .pink{
+        color: rgb(255, 141, 160);
+    }
+    .blue{
+        color: rgb(0, 129, 209);
+        font-size: 2.2rem;
+    }
+    .secondpart{
+        margin: 10px 0;
+    }
+    .secondpart h1{
+        font-size: 2.8rem;
+        font-weight: 700;
+        line-height: 2.9rem;
+    }
+    .thirdline{
+        font-size: 0.8rem;
+        margin: 15px 0;
+        word-spacing: 1px;
+        letter-spacing: 0.5px;
+    }
+
+    .pinkbutton{
+        padding: 8px 30px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        background-color: rgb(255, 141, 160);
+        color: white;
+        font-weight: 600;
+    }
+
+    
+    
+    </style>
+
+</head>
+<body>
+    <section>
+        <div class="first">
+            <div class="text">
+                <div class="firstline">
+                    <div class="line"></div>
+                    <p class="holatxt">Hello</p>
+                </div>
+                <div class="secondpart">
+                    <h1>I'm <span class="pink">Jenifer</span> Kanto <br>
+                    <span class="blue">UI & UX Designer</span></h1>
+                </div>
+                <div class="thirdline">
+                    <p>we're a brand and digital design agency <br>
+                    building brands that matter in culture</p>
+                </div>
+                <button class="pinkbutton">
+                    Hire Me
+                </button>
+            </div>
+        </div>
+        <div class="second">
+
+        </div>
+    </section>
+</body>
+</html>
